@@ -1,0 +1,49 @@
+{
+  "components": [
+    {
+      "label": "Bad Words",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_093mjs1",
+        "columns": null
+      },
+      "id": "Field_12avkz7",
+      "key": "matchedWords",
+      "readonly": true,
+      "disabled": true,
+      "description": "Note : If the field is empty then it means there is no bad word in the text."
+    },
+    {
+      "values": [
+        {
+          "label": "Send Text",
+          "value": "SendText"
+        },
+        {
+          "label": "Don't Send",
+          "value": "dontSend"
+        }
+      ],
+      "label": "Select Action",
+      "type": "select",
+      "layout": {
+        "row": "Row_07zcpzw",
+        "columns": null
+      },
+      "id": "Field_1lvwqem",
+      "key": "actionKey",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "Form_1kz2cdf",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.23.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.21.0",
+  "schemaVersion": 16
+}

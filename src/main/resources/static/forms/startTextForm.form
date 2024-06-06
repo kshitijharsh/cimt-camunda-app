@@ -1,0 +1,26 @@
+{
+  "components": [
+    {
+      "label": "Enter Text",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0gi8tms",
+        "columns": null
+      },
+      "id": "Field_0s8oc6b",
+      "key": "inputText",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "Form_StartText",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.23.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.21.0",
+  "schemaVersion": 16
+}
